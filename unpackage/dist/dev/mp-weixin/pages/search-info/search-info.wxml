@@ -1,0 +1,1 @@
+<view><view class="search-info"><text class="search-text">{{"搜索关键字“"+searchInfo+"”的结果"}}</text></view><article-list vue-id="88058550-1" bind:__l="__l"></article-list><copyright vue-id="88058550-2" bind:__l="__l"></copyright></view>

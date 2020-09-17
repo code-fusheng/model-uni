@@ -1,0 +1,9 @@
+
+.search-info {
+	padding-left: 30rpx;
+}
+.search-text {
+	font-size: 36rpx;
+	line-height: 50rpx;
+}
+

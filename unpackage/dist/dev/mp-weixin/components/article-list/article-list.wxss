@@ -1,0 +1,85 @@
+/* 文章信息开始 */
+.article-list-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 10rpx;
+}
+.article-item-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	height: 180rpx;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	margin-top: 10rpx;
+	background-color: #FFFFFF;
+}
+.article-image {
+	width: 230rpx;
+	height: 180rpx;
+}
+.article-item {
+	width: 450rpx;
+	height: 180rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.article-content {
+	max-height: 126rpx;
+	overflow: hidden;
+	font-size: 32rpx;
+}
+.article-meta-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 370rpx;
+}
+.article-meta {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 30rpx;
+	margin-bottom: 5rpx;
+}
+.article-item-icon {
+	width: 28rpx;
+	height: 28rpx;
+}
+.article-item-text {
+	font-size: 28rpx;
+	color: #A5A5A5;
+}
+/* 文章信息结束 */
+

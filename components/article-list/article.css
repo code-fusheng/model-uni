@@ -1,0 +1,60 @@
+/* 文章信息开始 */
+.article-list-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10rpx;
+}
+
+.article-item-container {
+	display: flex;
+	flex-direction: row;
+	height: 180rpx;
+	justify-content: space-around;
+	margin-top: 10rpx;
+	background-color: #FFFFFF;
+}
+
+.article-image {
+	width: 230rpx;
+	height: 180rpx;
+}
+
+.article-item {
+	width: 450rpx;
+	height: 180rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.article-content {
+	max-height: 126rpx;
+	overflow: hidden;
+	font-size: 32rpx;
+}
+
+.article-meta-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 370rpx;
+}
+
+.article-meta {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 30rpx;
+	margin-bottom: 5rpx;
+}
+
+.article-item-icon {
+	width: 28rpx;
+	height: 28rpx;
+}
+
+.article-item-text {
+	font-size: 28rpx;
+	color: #A5A5A5;
+}
+
+/* 文章信息结束 */

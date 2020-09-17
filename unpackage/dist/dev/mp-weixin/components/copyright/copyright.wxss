@@ -1,0 +1,12 @@
+
+.copyright-container {
+	height: 150rpx;
+	text-align: center;
+}
+.copyright-text {
+	color: #A5A5A5;
+	line-height: 150rpx;
+	font-size: 24rpx;
+	text-align: center;
+}
+

@@ -1,0 +1,55 @@
+{
+	// 页面路由
+	"pages": [
+		{
+		"path": "pages/index/index"
+		},
+		{
+            "path" : "pages/search/search",
+            "style" : {}
+        },
+		{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        },
+		{
+			"path": "pages/search-info/search-info",
+			"style": {}
+		}
+        ,{
+            "path" : "pages/article-info/article-info",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "个人论坛 | code-fusheng",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	// 菜单
+	"tabBar": {
+		"selectedColor":"#1afa29",
+		"borderStyle":"white",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/icons/index.png",
+				"selectedIconPath":"static/icons/index_select.png"
+			},
+			{
+				"pagePath":"pages/search/search",
+				"text":"搜索",
+				"iconPath":"static/icons/search.png",
+				"selectedIconPath":"static/icons/search_select.png"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/icons/mine.png",
+				"selectedIconPath":"static/icons/mine_select.png"
+			}
+		]
+	}
+}

@@ -1,0 +1,156 @@
+/* 上方标题 */
+.article-header-container {
+	height: 280rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.article-title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 160rpx;
+}
+
+.article-title-text {
+	width: 540rpx;
+	font-size: 44rpx;
+	font-weight: bold;
+	padding-left: 20rpx;
+	border-left: 10rpx solid #6d0000;
+}
+
+.article-title-good {
+	width: 140rpx;
+	border: 5rpx solid #A5A5A5;
+	height: 140rpx;
+	border-radius: 50%;
+	/* 前两个参数偏移 第三个尺寸 第四个颜色 */
+	box-shadow: 0rpx 0rpx 20rpx 6rpx #E5E5E5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.article-title-good-image {
+	width: 46rpx;
+	height: 46rpx;
+}
+
+.article-title-good-text {
+	font-size: 24rpx;
+	color: #A5A5A5;
+	margin-top: 10rpx;
+}
+
+
+/* 图标 */
+.article-meta-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 20rpx;
+	width: 370rpx;
+}
+
+.article-meta {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 30rpx;
+	margin-bottom: 5rpx;
+}
+
+.article-meta-icon {
+	width: 28rpx;
+	height: 28rpx;
+}
+
+.article-meta-text {
+	font-size: 28rpx;
+	color: #A5A5A5;
+}
+
+/* 图标结束 */
+
+.article-type-container {
+	min-width: 100rpx;
+	max-width: 160rpx;
+	padding-left: 20rpx;
+}
+/* 上方标题结束 */
+
+/* 我的文章内容开始 */
+.article-content {
+	padding: 20rpx;
+	background-color: #FFFFFF
+}
+
+
+
+/* 我的文章内容结束 */
+
+/* 点赞与评论开始 */
+.article-good-title {
+	font-size: 32rpx;
+	font-weight: bold;
+	padding-left: 20rpx;
+	border-left: 10rpx solid #d02a09;
+	margin-bottom: 40rpx;
+}
+
+.article-comment-title {
+	font-size: 32rpx;
+	font-weight: bold;
+	padding-left: 20rpx;
+	border-left: 10rpx solid #d02a09;
+	margin-bottom: 40rpx;
+}
+
+.article-comment-item {
+	display: flex;
+	flex-direction: column;
+	height: 200rpx;
+	padding-left: 20rpx;
+	font-size: 30rpx;
+	justify-content: space-between;
+	margin-top: 12rpx;
+	background-color: #FFFFFF;
+}
+
+.comment-user-name {
+	color: #0a8dff;
+	line-height: 50rpx;
+}
+
+.comment-content {
+	max-height: 80rpx;
+	overflow: hidden;
+}
+
+.article-time {
+	margin-top: 20rpx;
+	margin-bottom: 5rpx;
+	font-size: 26rpx;
+	color: #A5A5A5;
+	line-height: 50rpx;
+}
+
+
+/* 点赞与评论结束 */
+
+/* 相关阅读开始 */
+.recom-article-title {
+	font-size: 32rpx;
+	font-weight: bold;
+	padding-left: 20rpx;
+	border-left: 10rpx solid #d02a09;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+
+/* 相关阅读结束 */
+

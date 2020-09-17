@@ -1,0 +1,90 @@
+/* 顶部背景样式 */
+.bg-image-container {
+	height: 350rpx;
+	background-image: url(../../static/my-back.png);
+	background-size: 100% 350rpx;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+	height: 350rpx;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-image {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 50%;
+}
+
+.user-name {
+	color: #FFFFFF;
+	margin-top: 10rpx;
+}
+
+.header-text {
+	color: #FFFFFF;
+	margin-top: 10rpx;
+	font-size: 32rpx;
+}
+
+/* 顶部背景结束 */
+
+/* 浮生-若梦 */
+.fusheng-ruomeng-container {
+	width: 750rpx;
+	height: 200rpx;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.fusheng-container {
+	width: 375rpx;
+	height: 130rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.fusheng-top-text {
+	font-size: 38rpx;
+	color: #ff871e;
+}
+
+.fusheng-buttom-text {
+	font-size: 32rpx;
+	color: #A5A5A5;
+}
+
+.ruomeng-container {
+	width: 375rpx;
+	height: 130rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.ruomeng-top-text {
+	font-size: 38rpx;
+	color: #37f53e;
+}
+
+.ruomeng-buttom-text {
+	font-size: 32rpx;
+	color: #A5A5A5;
+}
+/* 浮生-若梦 */
+
+/* 菜单样式 */
+.menu-container {
+	width: 650rpx;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 36rpx;
+}
+/* 菜单样式结束 */

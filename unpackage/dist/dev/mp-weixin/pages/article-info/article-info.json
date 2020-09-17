@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "article-line": "/components/article-line/article-line",
+    "article-list": "/components/article-list/article-list"
+  }
+}

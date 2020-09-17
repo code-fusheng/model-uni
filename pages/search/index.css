@@ -1,0 +1,24 @@
+.search-navbar-container {
+	display: flex;
+	flex-direction: row;
+	height: 80rpx;
+	align-items: center;
+	background-color: #FFFFFF;
+	margin-top: 10rpx;
+}
+
+.navbar-item {
+	width: 187rpx;
+	padding: 0 20rpx;
+	text-align: center;
+	line-height: 80rpx;
+}
+
+.navbar-text {
+	font-size: 32rpx;
+}
+
+.navbar-text-active {
+	color: #ff1d52;
+	border-bottom: 6rpx solid #ff1d52;
+}
